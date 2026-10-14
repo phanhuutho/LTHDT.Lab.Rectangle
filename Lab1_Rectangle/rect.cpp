@@ -60,7 +60,7 @@ void Rectangle::display()
 {
 	if (len > 0 && wid > 0 && len <= maxValue && wid <= maxValue)
 	{
-		cout << len << " x " << wid << endl;
+		cout << "[" << len << " x " << wid << "]";
 	}
 	else
 	{
