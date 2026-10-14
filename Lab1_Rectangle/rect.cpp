@@ -17,7 +17,7 @@ Rectangle::Rectangle(int length, int width)
 
 void Rectangle::setLength(int newLength)
 {
-	if (newLength > 0)
+	if (newLength > 0 && newLength <= maxValue)
 		len = newLength;
 	else
 		cout << "Value new length invalid !!!" << endl;
@@ -25,7 +25,7 @@ void Rectangle::setLength(int newLength)
 
 void Rectangle::setWidth(int newWidth)
 {
-	if (newWidth > 0)
+	if (newWidth > 0 && newWidth <= maxValue)
 		wid = newWidth;
 	else
 		cout << "Value new width invalid !!!" << endl;
@@ -64,11 +64,11 @@ void Rectangle::display()
 	}
 	else
 	{
-		if (len < 0)
+		if (len < 0 || len > maxValue)
 		{
 			cout << "invalid length !!!" << endl;
 		}
-		if (wid < 0)
+		if (wid < 0 || wid > maxValue)
 		{
 			cout << "invalid width !!!" << endl;
 		}
