@@ -1,3 +1,7 @@
+/Debug/
+/Lab1_Rectangle/Debug/
+/Lab2_Rectangle/Debug/
+/.vs/
 /.vs/Lab1_Rectangle/v16/.suo
 /.vs/Lab1_Rectangle/v16/Browse.VC.db
 /.vs/Lab1_Rectangle/v16/Browse.VC.db-shm
@@ -86,3 +90,6 @@
 /Lab1_Rectangle/Debug/vc142.pdb
 /Lab1_Rectangle/Debug/Lab1_Rectangle.log
 /Lab1_Rectangle/Debug/Lab1_Rectangle.tlog/CL.command.1.tlog
+/Lab1_Rectangle/Debug/Lab1_Rectangle.tlog/link.command.1.tlog
+/Lab1_Rectangle/Debug/Lab1_Rectangle.tlog/link.read.1.tlog
+/Lab1_Rectangle/Debug/Lab1_Rectangle.tlog/link.write.1.tlog

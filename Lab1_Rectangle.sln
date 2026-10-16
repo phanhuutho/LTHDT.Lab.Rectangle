@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.37627.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab1_Rectangle", "Lab1_Rectangle\Lab1_Rectangle.vcxproj", "{28CFDCC7-0890-4B78-B0C8-591C86929651}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lab2_Rectangle", "Lab2_Rectangle\Lab2_Rectangle.vcxproj", "{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{28CFDCC7-0890-4B78-B0C8-591C86929651}.Release|x64.Build.0 = Release|x64
 		{28CFDCC7-0890-4B78-B0C8-591C86929651}.Release|x86.ActiveCfg = Release|Win32
 		{28CFDCC7-0890-4B78-B0C8-591C86929651}.Release|x86.Build.0 = Release|Win32
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Debug|x64.ActiveCfg = Debug|x64
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Debug|x64.Build.0 = Debug|x64
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Debug|x86.Build.0 = Debug|Win32
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Release|x64.ActiveCfg = Release|x64
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Release|x64.Build.0 = Release|x64
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Release|x86.ActiveCfg = Release|Win32
+		{AF73CF83-6D3F-4267-BBC8-D5C62AB2C775}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
