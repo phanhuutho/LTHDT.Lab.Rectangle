@@ -1,10 +1,10 @@
 #include "employee.h"
 
-Employee::Employee(string lName, string fName, Date dBirth, Date dHire) {
-	this->lastname = lName;
-	this->firstname = fName;
-	this->birthdate = dBirth;
-	this->hiredate = dHire;
+Employee::Employee(string last, string first, Date birth, Date hire) {
+	this->firstname = first;
+	this->lastname = last;
+	this->birthdate = birth;
+	this->hiredate = hire;
 }
 
 Employee::~Employee()

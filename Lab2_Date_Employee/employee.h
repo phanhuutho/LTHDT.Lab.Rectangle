@@ -1,6 +1,8 @@
 #pragma once
 #include "date.h"
 #include "string"
+using namespace std;
+
 class Employee
 {
 private:
@@ -10,7 +12,7 @@ private:
 	Date hiredate;
 
 public:
-	Employee(string lName, string fName, Date dBirth, Date dHire); //parameterized constructor
+	Employee(string last, string first, Date birth, Date hire); //parameterized constructor
 
 	~Employee(); //destructor object
 

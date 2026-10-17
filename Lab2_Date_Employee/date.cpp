@@ -10,7 +10,7 @@ Date::Date(int month, int day, int year)
 	}
 	else
 	{
-		cout << "Invalid date, and set to default 1/1/1900." << endl;
+		cout << "Invalid date '" << day << "/" << month << "/" << year << "', and set to default 1/1/1900." << endl;
 		this->day = 1;
 		this->month = 1;
 		this->year = 1900;
