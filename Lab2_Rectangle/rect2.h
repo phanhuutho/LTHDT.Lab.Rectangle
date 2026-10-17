@@ -8,7 +8,7 @@ class Rectangle
 private:
 	int len; //chieu dai
 	int wid; //chieu rong
-	static int thisMany; //thanh vien du lieu tinh, dem so luong hinh chu nhat
+	static int thisMany; //counter available rectangle
 	string fillString;
 public:
 	Rectangle(); //default constructor
@@ -22,6 +22,8 @@ public:
 	//getters
 	int getLength() const;
 	int getWidth() const;
+
+	//get fillString
 	string fill() const;
 
 	//functions operations
@@ -35,6 +37,6 @@ public:
 
 	void draw(char c = '*'); //draw rectangle
 
-	static int howMany(); //ham thanh vien truy cap du lieu tinh so luong hinh chu nhat
+	static int howMany(); //get counts available rectangle
 };
 
